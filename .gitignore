@@ -1,2 +1,15 @@
-server/node_modules
+# Node (server)
+server/node_modules/
 server/.env
+server/*.log
+
+# React or frontend build artifacts (if using React)
+client/node_modules/
+client/build/
+client/.env
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
